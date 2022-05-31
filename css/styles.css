@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Infinity;
+  src: url(../fonts/Infinity.woff2);
+}
+
+@font-face {
+  font-family: simplifica;
+  src: url(../fonts/SIMPLIFICA\ Typeface\ \(1\).woff2);
+}
+
 html {
   scroll-behavior: smooth;  
   max-width: 375px;
