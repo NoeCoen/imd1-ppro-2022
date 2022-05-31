@@ -12,22 +12,27 @@ html {
   scroll-behavior: smooth;  
   max-width: 375px;
   margin: auto;
+  font-family: infinity;
 }
 
 .felx-container {
   display: flex;
 }
 
-header {
+.header {
   font-family: infinity;
   flex-direction: row;
-
+  align-items: center;
 }
 
 .header-side {
   flex-direction: column;
-  font-size: larger;
   padding: 10px;
+}
+
+.header-side p {
+  font-size: large;
+  padding: 0 0;
 }
 
 img {
@@ -42,4 +47,34 @@ a {
 a:visited {
   text-decoration: none;
   color: black;
+}
+
+h1, h2, h3, h4 {
+  font-family: simplifica;
+}
+
+h2 {
+  padding-left: 20px;
+  font-size: x-large;
+}
+
+p {
+  padding-left: 20px;
+  font-size: medium;
+}
+
+.slider-image {
+  min-width: 100px;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  margin: 40px 0;
+}
+
+.slider-image img {
+  padding: 10px 20px;
+}
+
+hr {
+  margin: 30px;
 }
