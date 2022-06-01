@@ -15,28 +15,36 @@ html {
   font-family: infinity;
 }
 
-.felx-container {
+.flex-container {
   display: flex;
 }
 
-.header {
+.header, .footer{
   font-family: infinity;
   flex-direction: row;
   align-items: center;
 }
 
-.header-side {
+.header-side, .footer-side {
   flex-direction: column;
-  padding: 10px;
+  padding: 10px 10px;
 }
 
 .header-side p {
   font-size: large;
   padding: 0 0;
+  margin: 10px 0;
+}
+
+.footer-side p {
+  font-size: small;
+  padding: 0 0;
+  margin: 5px;
+  text-align: right;
 }
 
 img {
-  min-width: 220px;
+  min-width: 200px;
 }
 
 a {
