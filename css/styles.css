@@ -100,7 +100,7 @@ hr {
 
 .carte-vente h4 {
   text-align: left;
-  font-size: medium;
+  font-size: large;
   margin: 0;
 }
 
@@ -109,4 +109,10 @@ hr {
   flex-wrap: wrap;
   max-height: 400px;
   padding-left: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
 }
