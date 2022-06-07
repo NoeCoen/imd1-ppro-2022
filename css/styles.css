@@ -15,6 +15,7 @@ html {
   font-family: infinity;
   background-image: url(../img/background_onepage.png);
   background-repeat: repeat-y;
+  color: white;
 }
 
 .flex-container {
@@ -52,12 +53,12 @@ img {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 h1, h2, h3, h4 {
@@ -118,4 +119,13 @@ hr {
   display: flex;
   justify-content: center;
   font-size: xx-large;
+}
+
+.grande-image {
+  padding: 20px;
+  max-width: 320px;
+}
+
+.ombrage {
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
 }
