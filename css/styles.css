@@ -13,6 +13,8 @@ html {
   max-width: 375px;
   margin: auto;
   font-family: infinity;
+  background-image: url(../img/background_onepage.png);
+  background-repeat: repeat-y;
 }
 
 .flex-container {
